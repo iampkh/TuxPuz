@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Tux puZ</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_image_puzzle">ImagePuzzle</string>
+    <string name="go">GO</string>
+    <string name="browse">Browse</string>
+    <color name="puzzle_bg">#228ca6</color>
+
+</resources>

@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/play_help_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setaswallpaper_file"
+            android:textColor="#ffffff"
+            android:text="Play Help" />
+
+        <Button
+            android:id="@+id/about_us_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:background="@drawable/setaswallpaper_file"
+            android:text="About Us" />
+    </TableRow>
+
+    <LinearLayout
+        android:id="@+id/fragment_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/mainlinear_layout_"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/helpview_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                    
+                    <Button
+                        android:id="@+id/facebook_like_help"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/fb_like" />
+
+                    <TextView
+                        android:id="@+id/howtoplay_easy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="25dp"
+                        android:shadowColor="#ff0000"
+                        android:shadowRadius="30"
+                        android:text="How to play "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#36ff00" />
+
+                    <TextView
+                        android:id="@+id/howtoplay_easy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#ff0000"
+                        android:shadowRadius="30"
+                        android:text="3x3 and 4x4 "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#36ff00" />
+
+                    <TextView
+                        android:id="@+id/howtoplay_easy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#ff0000"
+                        android:shadowRadius="30"
+                        android:text="easy level"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#36ff00" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal" >
+
+                        <ImageView
+                            android:id="@+id/rct1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/rect_bg" />
+
+                        <ImageView
+                            android:id="@+id/rct2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="13dp"
+                            android:layout_toRightOf="@+id/rct1"
+                            android:src="@drawable/rect_bg" />
+
+                        <ImageView
+                            android:id="@+id/swipehand"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toLeftOf="@+id/rct2"
+                            android:src="@drawable/swipe_hand" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#36ff00"
+                        android:shadowRadius="30"
+                        android:text="Use your fingers "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#36ff00"
+                        android:shadowRadius="30"
+                        android:text="to swipe from one grid "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#36ff00"
+                        android:shadowRadius="30"
+                        android:text="to another "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/howtoplay_easy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="25dp"
+                        android:shadowColor="#ff0000"
+                        android:shadowRadius="30"
+                        android:text="How to play "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#36ff00" />
+
+                    <TextView
+                        android:id="@+id/howtoplay_easy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#ff0000"
+                        android:shadowRadius="30"
+                        android:text="3x3 and 4x4 "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#36ff00" />
+
+                    <TextView
+                        android:id="@+id/howtoplay_easy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#ff0000"
+                        android:shadowRadius="30"
+                        android:text="Hard level"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#36ff00" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal" >
+
+                        <ImageView
+                            android:id="@+id/rct1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/rect_bg" />
+
+                        <ImageView
+                            android:id="@+id/rct2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="13dp"
+                            android:layout_toRightOf="@+id/rct1"
+                            android:background="#ffffff"
+                            android:padding="1dp"
+                            android:src="@drawable/brown" />
+
+                        <ImageView
+                            android:id="@+id/swipehand"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toLeftOf="@+id/rct2"
+                            android:src="@drawable/hand" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#36ff00"
+                        android:shadowRadius="30"
+                        android:text="Use your finger "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#36ff00"
+                        android:shadowRadius="30"
+                        android:text="and tap on the grid "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="30dp"
+                        android:shadowColor="#36ff00"
+                        android:shadowRadius="30"
+                        android:text="which is nearer to the black one "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/about_us_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Design and Developing"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#36ff00" />
+
+                    <TextView
+                        android:id="@+id/prakash_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#ffffff"
+                        
+                        android:text="PRAKASH P"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#ff0560"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#ff0000"
+                        android:shadowDx="-5"
+                        android:shadowDy="-5"
+                        android:shadowRadius="4"
+                        android:text="[ pkh ]"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#00f0ff"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/facebook_like"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/fb_like" />
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="This is my first application, "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text=" I started it as first step in my carrier"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Soon i will come up with "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="new application which makes you to like it"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="and"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="I am passionate about learning"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Design and Developing Games ."
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+                     <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="inspired by VINOTH THAKURATTI ."
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:text="Thanks to My Parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#36ff00" />
+
+                    <TextView
+                        android:id="@+id/prakash_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#ffffff"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        android:text="Mr.and Mrs Paramasivam"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#ffff00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="for "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                     <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="FUND and SUPPORT"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                     <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="_____________________________"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                     <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="My"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                      <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Beloved Friends "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                       <TextView
+                        android:id="@+id/prakash_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#ffffff"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        android:text="Prasanna Venkatesh"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#9400d3"
+                        android:textStyle="bold" />
+                        <TextView
+                        android:id="@+id/prakash_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:shadowColor="#ffffff"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        android:text="Sathiya ,Anand Kumar"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#9932cc"
+                        android:textStyle="bold" />
+                         <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="for "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                     <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Support"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                       
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:text="SPECIAL THANKS TO"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#36ff00" />
+
+                    <TextView
+                        android:id="@+id/prakash_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                       
+                        android:text="Girish .V.Kulkarni"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#ff0560"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="for "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                     <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="GUIDANCE"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+					
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:shadowColor="#ff0000"
+                        android:shadowDx="-5"
+                        android:shadowDy="-5"
+                        android:shadowRadius="15"
+                        android:text="Thanks to PALLE TECHNOLOGIES"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#00f0ff"
+                        android:textStyle="bold" />
+                     <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Mr.Satish Reddy  and"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                      <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Mr.Lokesh Gowda"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                  
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:shadowColor="#ff0000"
+                        android:shadowDx="-5"
+                        android:shadowDy="-5"
+                        android:shadowRadius="15"
+                        android:text="Ashwini ,Deepthi,Shruthi"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#00f0ff"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="for "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                     <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="suggestions "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="as well as testing.."
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                 
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:shadowColor="#ff0000"
+                        android:shadowDx="-5"
+                        android:shadowDy="-5"
+                        android:shadowRadius="15"
+                        android:text="Santhosh and Swetha"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#00f0ff"
+                        android:textStyle="bold" />
+                     <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="for "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                     <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Testing and Providing Device"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                     <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="and "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+                       <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="final Thanks to"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:shadowColor="#ff0000"
+                        android:shadowDx="-5"
+                        android:shadowDy="-5"
+                        android:shadowRadius="15"
+                        android:text="Mr.Venkatesh"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#00f0ff"
+                        android:textStyle="bold" />
+                     <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="for "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                       <TextView
+                        android:id="@+id/pkh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="providing his Credit Card "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                    
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        
+                        android:layout_marginTop="10dp"
+                        android:text="THANK YOU FOR"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#36ff00" />
+                     <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="25dp"
+                        
+                        android:text="DOWNLOADING"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#36ff00" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

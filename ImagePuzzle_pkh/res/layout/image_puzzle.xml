@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        
+        android:orientation="vertical" >
+        <RadioGroup 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:checkedButton="@+id/radio_btn_3x3"
+        	android:id="@+id/myRadioGroup">
+
+			        <RadioButton
+			            android:id="@+id/radio_btn_3x3"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="3x3" />
+			
+			        <RadioButton
+			            android:id="@+id/radio_btn_4x4"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="4x4" />
+			
+			        <RadioButton
+			            android:id="@+id/radio_btn_5x5"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="5x5" />
+			
+			        <RadioButton
+			            android:id="@+id/radio_btn_6x6"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="6x6" />
+        
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3x3 selected"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/go_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GO" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/normalTux"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/normal_logo_file"
+                    
+                     />
+
+                <ImageButton
+                    android:id="@+id/roundTux1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/round1_logo_file"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/foreground_lock"
+                    
+                     />
+            
+
+
+                <ImageButton
+                    android:id="@+id/rapperTux"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/rapper_logo_file"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/foreground_lock"
+                    />
+
+                <ImageButton
+                    android:id="@+id/GNUTux"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/gnu_logo_file"
+                    android:src="@drawable/foreground_lock"
+                    />
+
+                <Button
+                    android:id="@+id/splTux"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/spl_level_logo_file" />
+
+                <ImageButton
+                    android:id="@+id/childTux1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/foreground_lock"
+                    android:background="@drawable/child1_logo_file" />
+
+                <ImageButton
+                    android:id="@+id/childTux2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/foreground_lock"
+                    android:background="@drawable/child2_logo_file"/>
+           
+
+                <ImageButton
+                    android:id="@+id/roundTux2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/foreground_lock"
+                    android:background="@drawable/round2_logo_file" />
+
+                <ImageButton
+                    android:id="@+id/paxTux"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/foreground_lock"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/paxtux_logo_file" />
+
+                <Button
+                    android:id="@+id/splTux2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/spl_level_logo_file" />
+
+                <ImageButton
+                    android:id="@+id/scientistTux"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/foreground_lock"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/scientist_logo_file" />
+
+                <ImageButton
+                    android:id="@+id/vikingTux"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/foreground_lock"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/viking_logo_file"/>
+          
+                <ImageButton
+                    android:id="@+id/batmanTux"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/foreground_lock"
+                    android:background="@drawable/batman_logo_file" />
+
+                <ImageButton
+                    android:id="@+id/chiti_RajiniTux"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/foreground_lock"
+                    
+                    android:background="@drawable/chitirajini_logo_file"/>
+
+                <Button
+                    android:id="@+id/splTux3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/spl_level_logo_file" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

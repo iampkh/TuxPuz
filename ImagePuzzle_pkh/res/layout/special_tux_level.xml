@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+            
+            <ImageButton
+                android:id="@+id/marioTux"
+                android:layout_width="wrap_content"
+                
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                
+                android:background="@drawable/mario_logo_file"
+                android:src="@drawable/foreground_lock"
+                 />
+
+            <ImageButton
+                android:id="@+id/roboTux"
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/robo_logo_file"
+                android:src="@drawable/foreground_lock"
+   				/>
+
+            <ImageButton
+                android:id="@+id/ninjaTux"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ninja_logo_file"
+                android:src="@drawable/foreground_lock"
+                 />
+
+            <ImageButton
+                android:id="@+id/cowboyTux"
+                
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cowboy_logo_file"
+                android:src="@drawable/foreground_lock"
+                />
+       
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>
